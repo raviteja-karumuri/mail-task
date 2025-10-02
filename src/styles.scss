@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+@use 'variables' as *;
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(#{$font-regular}) format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url(#{$font-bold}) format('truetype');
+    font-weight: 700;
+}
+
+body {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Product Sans', sans-serif;
+  font-weight: 700;
+}
